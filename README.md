@@ -12,6 +12,8 @@
 To execute the test, before to create the projects and implments the classes:
 Execute the commands line:
 
+- cd TDD
+- cd Contact.Domain.Test
 - dotnet build
 - dotnet test
 
