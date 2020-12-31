@@ -21,6 +21,7 @@ Execute the commands line:
 
 - .Net Core 3.1
 - XUnit
+- ExpectedObjects
 
 
 ### DDD (Domain Driven Development) - [Not implemented yet]
