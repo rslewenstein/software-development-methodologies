@@ -1,6 +1,6 @@
 # Studies about Software development methodologies(TDD, DDD) using .Net Core
 
-### TDD (Test Driven Development)
+### TDD (Test Driven Development) - [Done]
 
 #### Rules:
 1 - Create a test that signifies a business rule.
@@ -21,3 +21,6 @@ Execute the commands line:
 
 - .Net Core 3.1
 - XUnit
+
+
+### DDD (Domain Driven Development) - [Not implemented yet]
