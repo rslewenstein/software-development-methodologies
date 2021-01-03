@@ -2,9 +2,9 @@ using System;
 
 namespace Contact.Domain.Models
 {
-    public class Contact : BaseEntity
+    public class Conttact : BaseEntity
     {
-        public Contact(string name, string email){
+        public Conttact(string name, string email){
             ValidateCategory(name, email);
             Name = name;
             Email = email;
