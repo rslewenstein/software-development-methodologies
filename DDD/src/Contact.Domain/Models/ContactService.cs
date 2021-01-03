@@ -4,9 +4,9 @@ namespace Contact.Domain.Models
 {
     public class ContactService
     {
-        private readonly IRepository<Contact> _contactRepository;
+        private readonly IRepository<Conttact> _contactRepository;
 
-        public ContactService(IRepository<Contact> contactRepository){
+        public ContactService(IRepository<Conttact> contactRepository){
             _contactRepository = contactRepository;
         }
 
@@ -14,7 +14,7 @@ namespace Contact.Domain.Models
             var contact = _contactRepository.GetById(id);
 
             if(contact == null){
-                contact = new Contact(name, email);
+                contact = new Conttact(name, email);
                 _contactRepository.Save(contact);
             }
             else{
