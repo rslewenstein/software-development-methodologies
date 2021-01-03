@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AnHxq2Fc46tUnFEqCvR0EdllbWcxWWuDaMf+//QZQXBhzqzOxie6CB7ePe7PLTerIr4hqc6Z3+vfy9zpLEgNGQ==",
+  "success": true,
+  "projectFilePath": "/media/rafael/Arquivos/Projetos/Pessoais/dotnet/software-development-methodologies/DDD/src/Contact.Application/Contact.Application.csproj",
+  "expectedPackageFiles": [
+    "/home/rafael/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/home/rafael/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
