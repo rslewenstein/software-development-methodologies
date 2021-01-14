@@ -2,6 +2,8 @@ using Contact.Domain.Interfaces;
 using Contact.Domain.Models;
 using Contact.Infra.Context;
 using Contact.Infra.Repositories;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Contact.Application.DI
 {

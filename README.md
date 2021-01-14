@@ -24,4 +24,9 @@ Execute the commands line:
 - ExpectedObjects
 
 
-### DDD (Domain Driven Development) - [Not implemented yet]
+### DDD (Domain Driven Development) - [Done]
+
+#### Technologies:
+
+- .Net Core 3.1
+- EntityFrameWorkCore

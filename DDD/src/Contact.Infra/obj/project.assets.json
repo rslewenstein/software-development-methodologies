@@ -541,6 +541,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "Contact.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Contact.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contact.Domain.dll": {}
+        }
       }
     }
   },
@@ -1592,10 +1602,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Contact.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Contact.Domain/Contact.Domain.csproj",
+      "msbuildProject": "../Contact.Domain/Contact.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Contact.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Sqlite >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.9",
@@ -1625,7 +1641,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "/media/rafael/Arquivos/Projetos/Pessoais/dotnet/software-development-methodologies/DDD/src/Contact.Domain/Contact.Domain.csproj": {
+              "projectPath": "/media/rafael/Arquivos/Projetos/Pessoais/dotnet/software-development-methodologies/DDD/src/Contact.Domain/Contact.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
